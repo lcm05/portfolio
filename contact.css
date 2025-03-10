@@ -1,0 +1,113 @@
+body{
+    font-family: "42dot Sans", sans-serif;
+    font-optical-sizing: 700;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: #242424;
+  }
+
+
+  /* 해더영역 */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6595d9;
+    height: 72px;
+    align-items: center;
+    padding: 0 40px;
+    /* 위아래 왼오px */
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+  .header-logo {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .logo-imgg {
+    width: 30pt;
+
+  }
+
+
+  main {
+    margin: 72px auto;
+  }
+
+
+  .nav-menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .nav-list {
+    display: inline;
+    font-size: 16px;
+    color: white;
+  }
+  /* display 여백 = 시픝에이 묶은 컨테이너*/
+  
+  .nav-contact {
+    color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+
+    border-radius: 10px;  /* 각진곳  */
+    border: 1px solid #fff7eb ; /* 선의 모양 | 선의 컬러 */
+  }
+
+    /* 메인영역 */
+
+  .profile-img {
+    width: 320px;
+    height: auto;
+    object-fit: cover;
+
+    border-radius: 20px;
+
+  }
+
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+    /* 마진 0을 포함하는 이유 : 없으면 왼족으로 붙음.   */
+    display: flex;
+    gap: 40px;
+
+    padding: 200px 0;
+  }
+
+  .sub-heading {
+    font-size: 14px; 
+    color: gray; 
+    padding-bottom: 8px;
+  }
+
+  .text {
+    font-size: 24px; 
+    padding-bottom: 24px; 
+  }
+
+  .sns {
+    padding-bottom: 24px;
+      }
+
+  .sns:hover {
+    font-weight: 600; 
+    color: #234e88;
+  }

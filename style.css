@@ -1,0 +1,370 @@
+header{
+    font-family: "42dot Sans", sans-serif;
+    font-optical-sizing: 700;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    
+}
+
+
+h1 {
+    size: 300;
+}
+h2 {
+    font-family: "42dot Sans", sans-serif;
+    font-optical-sizing: 700;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(28, 22, 66);
+
+}
+h3 {
+    font-family: "42dot Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+p{
+    font-family: "42dot Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+
+  }
+
+
+  body {
+    background-color: rgb(255, 255, 255);
+    color: #242424;
+  }
+
+
+  /* 해더영역 */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6595d9;
+    height: 72px;
+    align-items: center;
+    padding: 0 40px;
+    /* 위아래 왼오px */
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  main {
+    margin: 72px auto;
+  }
+
+  .header-logo {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .logo-imgg {
+    width: 30pt;
+
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .nav-list {
+    display: inline;
+    font-size: 16px;
+    color: white;
+  }
+  /* display 여백 = 시픝에이 묶은 컨테이너*/
+  
+  .nav-contact {
+    color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+
+    border-radius: 10px;  /* 각진곳  */
+    border: 1px solid #fff7eb ; /* 선의 모양 | 선의 컬러 */
+  }
+
+  .nav-contact:hover/* 호버했을 떄 동적반응*/
+   {
+    background-color: rgb(44, 60, 90);
+  }
+  .nav-contact:active {
+    background-color: bisque;
+  }
+
+  .nav-portfolio {
+    color: #ffffff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+
+    border-radius: 10px;  /* 각진곳  */
+    border: 1px solid #fff7eb ; /* 선의 모양 | 선의 컬러 */
+  }
+
+  .nav-portfolio:hover/* 호버했을 떄 동적반응*/
+   {
+    background-color: rgb(44, 60, 90);
+  }
+  .nav-portfolio:active {
+    background-color: bisque;
+  }
+
+
+ 
+
+  .a-1{
+    text-decoration: none;
+    color: inherit;
+    /* 상속된 것을 쓰겠다 */
+    line-height: 1.5;
+
+    padding: 5px 10px ;
+
+    border-radius: 30px;
+    border: 1px solid #6595d9;
+
+    
+  }
+
+  .plus {
+    display: inline-block;
+    width: 100%;
+    margin: 30px 40px auto;    
+  }
+
+  
+  li {
+    display: inline;
+  }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+
+
+/* 텍스트 컬러 */
+.text-color-primary {
+  color: #5cafdf;
+}
+.text-color-default {
+  color: #6983c7;
+}
+  
+/* 텍스트 사이즈 */
+.sub-heading {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.1px;
+}
+/* 
+줄간격 line-height: (배수) 
+자간 letter-spacing: px
+*/
+
+.body-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.1px;
+
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+/* 자기소개 섹션 */
+.first {
+  padding: 120px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+
+  margin: 0 auto;
+  /* 마진 바깥쪽 영역 */
+ 
+}
+
+.interduce {
+  height: 480px; 
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  gap: 20px; 
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 120px 40px;
+  
+}
+
+.title-set {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  padding: 40px;
+}
+
+
+.fighting { 
+  font-weight: 500;
+  font-style: italic;
+  padding: 20px 40px;
+}
+
+/* 버튼 디자인 */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  height: 48px;
+  background-color: #6595d9;
+  padding: 0 24px;
+  margin: 0 40px;
+  
+  color: #ffffff;
+  border-radius: 100px;  /* 각진곳  */
+  font-size: 16px;
+  }
+
+  .btn-primary:hover {
+    background-color: #6983c7;
+    font-weight: 600;
+    transition: background-color 0.2s ease-in-out ;
+    /* ( ㄴ> 이거 녹화 짤림. 나중에 찾아볼 것. ) */
+  }
+
+
+
+/* 포트폴리오 */
+
+
+.title-set2 {
+  padding: 40px 0px 0px 40px;
+}
+
+.list {
+  display: flex;
+  /* (부모요소를 플렉스로 정렬하면 속 아이템들이 자동으로 채워지게 됨.
+   필 오토처럼 늘어나게 되니까 자식요소{아래처럼}에 '플렉스 슈링크' 넣어줌. )  */
+  align-items: flex-start;
+  max-width: 1320px;
+  margin: 0 auto;
+  gap: 24px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 20px 40px;
+}
+
+/* 스크롤바 커스텀 */
+.list::-webkit-scrollbar {
+  display: none;  /* 삭제 */
+}
+
+.list-item {
+  display: flex;
+  flex-shrink: 0;
+  width: 480px;
+  height: 240px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #6595d9;
+
+  padding: 12px;
+  gap: 20px;
+
+}
+
+.list-item:hover {
+  transform: scale(1.01);
+}
+
+.list-item img {
+  width: 240px;
+  height: 100%;
+  object-fit: cover; /* 안에 들어간 이미지 사이즈 맞추는 것에 대한 코드 */
+  /* ㄴ> object fit  = 영역에 맞춰 짤림 */
+
+  border-radius: 18px;
+}
+
+.project-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 8px;
+
+  width: 100%;
+
+}
+
+.name {
+  font-size: 20pt;
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+
+.date {
+  font-size: 12pt;
+  color: gray;
+  padding-bottom: 4px;
+}
+
+.desc {
+  font-size: 16pt;
+  font-weight: 400;
+  color: gray;
+  padding-top: 16px;
+}
+
+.btn-small {
+  background-color: #6595d9;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 8px;
+  
+  font-size: 16px;
+  text-align: center;
+
+}
+
+
+.btn-small:hover/* 호버했을 떄 동적반응*/
+{
+ background-color: rgb(44, 60, 90);
+}
+.btn-small:active {
+ background-color: bisque;
+}
+
+.a-1:hover {
+  background-color: #6595d9;
+  color: #fff;
+}
+.plus:hover {
+  transform: translateY(-5px);
+
+}
